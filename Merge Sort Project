@@ -1,0 +1,28 @@
+1.Soru: 
+[16,21,11,8,12,22] -> Merge Sort
+Yukarıdaki dizinin sort türüne göre aşamalarını yazınız.
+
+Cevap:
+
+                     [16,21,11,8,12,22]
+1.Adım:			[16,21,11]     		[8,12,22]
+2.Adım:		   [16] [21,11]        [8] [12,22]
+3.Adım:		  [16] [21] [11]	   [8] [12] [22]
+4.Adım:		  [16] [11,21]         [8] [12,22]
+5.Adım:		   [11,16,21]           [8,12,22]
+6.Adım:				[8,11,12,16,21,22]
+
+
+2.Soru: 
+Big-O gösterimini yazınız.
+
+Cevap:
+Her adımdaki time complexity O(n)'dir.
+
+Bu işlemi;
+2^x = n
+x = logn
+Yani bu işlemi logn defa yapıyoruz.
+
+Big-O: 
+O(n).O(logn) = O(nlogn)
